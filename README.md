@@ -20,10 +20,15 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 ## Screen Shots
 
+### Profile
 ![alt text](https://github.com/Gayath1/employee_management/blob/main/public/ScreenShots/Web%20capture_23-5-2022_141541_localhost.jpeg)
+### Google login
 ![alt text](https://github.com/Gayath1/employee_management/blob/main/public/ScreenShots/Web%20capture_23-5-2022_14159_localhost.jpeg)
+### Employee Regitser
 ![alt text](https://github.com/Gayath1/employee_management/blob/main/public/ScreenShots/Web%20capture_23-5-2022_141610_localhost.jpeg)
+### Employee View
 ![alt text](https://github.com/Gayath1/employee_management/blob/main/public/ScreenShots/Web%20capture_23-5-2022_141626_localhost.jpeg)
+### Employee Data Update
 ![alt text](https://github.com/Gayath1/employee_management/blob/main/public/ScreenShots/Web%20capture_23-5-2022_141641_localhost.jpeg)
 
 ## Demo Video
