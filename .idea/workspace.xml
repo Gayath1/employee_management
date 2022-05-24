@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f0fdc5e-1364-4620-be31-4a4cbf5a55f4" name="Changes" comment="" />
+    <list default="true" id="7f0fdc5e-1364-4620-be31-4a4cbf5a55f4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/components/Aleart/aleart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/NavBar/header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Profile/profile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Table/Delete.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Table/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/TextField/TextField.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/UpdateEmployee/updateEmployee.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/login/Googlebtn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middlewares/database.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/AddEmployee/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/Profile/profile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/ViewEmployee/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/api/Employee/Add/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/api/Employee/Delete/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/api/Employee/Designation/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/api/Employee/Get/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/api/Employee/Update/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/api/auth/[...nextauth].js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/auth/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Home.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +37,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/components/UpdateEmployee/updateEmployee.js" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="29NW9ppRtWzZzGgNaWWZYZ059mC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -20,14 +62,31 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages/auth" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Users\Gayath\employee_management\pages\auth" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.dev">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
@@ -40,6 +99,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.Debug Application" />
+      <item itemvalue="npm.dev" />
+      <item itemvalue="npm.npm start" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -49,7 +113,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652953875946</updated>
-      <workItem from="1652953877036" duration="1542000" />
+      <workItem from="1652953877036" duration="2291000" />
+      <workItem from="1652975179311" duration="238000" />
+      <workItem from="1652975427543" duration="11498000" />
+      <workItem from="1653018446555" duration="17139000" />
+      <workItem from="1653047902518" duration="6512000" />
+      <workItem from="1653064272095" duration="9138000" />
+      <workItem from="1653101427010" duration="2445000" />
+      <workItem from="1653105108911" duration="13921000" />
+      <workItem from="1653121147633" duration="4206000" />
+      <workItem from="1653133260884" duration="10904000" />
+      <workItem from="1653147224400" duration="1939000" />
+      <workItem from="1653190238395" duration="6235000" />
+      <workItem from="1653199640057" duration="3678000" />
+      <workItem from="1653208674330" duration="29361000" />
+      <workItem from="1653275838810" duration="18350000" />
+      <workItem from="1653310030394" duration="2243000" />
+      <workItem from="1653314992343" duration="692000" />
+      <workItem from="1653363703055" duration="1527000" />
+      <workItem from="1653372797817" duration="402000" />
     </task>
     <servers />
   </component>
