@@ -18,10 +18,14 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
+## Screen Shots
 
 ![alt text](https://github.com/Gayath1/employee_management/blob/main/public/ScreenShots/Web%20capture_23-5-2022_141541_localhost.jpeg)
 ![alt text](https://github.com/Gayath1/employee_management/blob/main/public/ScreenShots/Web%20capture_23-5-2022_14159_localhost.jpeg)
 ![alt text](https://github.com/Gayath1/employee_management/blob/main/public/ScreenShots/Web%20capture_23-5-2022_141610_localhost.jpeg)
 ![alt text](https://github.com/Gayath1/employee_management/blob/main/public/ScreenShots/Web%20capture_23-5-2022_141626_localhost.jpeg)
 ![alt text](https://github.com/Gayath1/employee_management/blob/main/public/ScreenShots/Web%20capture_23-5-2022_141641_localhost.jpeg)
+
+## Demo Video
+
+[a link] (https://github.com/Gayath1/employee_management/blob/main/public/Demo/Demo.mp4)
