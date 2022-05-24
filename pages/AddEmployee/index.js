@@ -149,8 +149,7 @@ function AddEmployee ()
                 <div
                     className="loader ease-linear rounded-full border-4 border-t-4 border-gray-200 h-12 w-12 mb-4"></div>
                 <h2 className="text-center text-white text-xl font-semibold">Loading...</h2>
-                <p className="w-1/3 text-center text-white">This may take a few seconds, please don't close this
-                    page.</p>
+                <p className="w-1/3 text-center text-white">This may take a few seconds, please don't close this page.</p>
             </div>
         )
     }
@@ -208,7 +207,7 @@ function AddEmployee ()
             </div>
             <div className="flex items-center">
 
-                <div class="flex-none">
+                <div className="flex-none">
                     <button onClick={ ( e ) => addFields( e ) }>
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" viewBox="0 0 20 20"
                              fill="currentColor">
