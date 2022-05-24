@@ -5,6 +5,7 @@ import { MenuIcon, SearchIcon, ShoppingBagIcon, XIcon } from '@heroicons/react/o
 
 import { useSession, signIn, signOut } from "next-auth/react"
 
+import Link from 'next/link';
 
 export default function Header ()
 {
@@ -45,11 +46,13 @@ export default function Header ()
                     <div className="ml-auto flex items-center justify-center">
                         { session ? (
                             <div className="hidden lg:flex lg:flex-1 lg:items-center lg:justify-center lg:space-x-6">
-                                <a href="/AddEmployee"
-                                   className="text-sm font-medium text-gray-700 hover:text-gray-800">Add Employees</a>
+                                <Link href="/AddEmployee">
+                                <a
+                                   className="text-sm font-medium text-gray-700 hover:text-gray-800">Add Employees</a></Link>
                                 <span className="h-6 w-px bg-gray-200" aria-hidden="true"/>
-                                <a href="/ViewEmployee"
-                                   className="text-sm font-medium text-gray-700 hover:text-gray-800">View Employees</a>
+                                <Link href="/ViewEmployee" >
+                                <a
+                                   className="text-sm font-medium text-gray-700 hover:text-gray-800">View Employees</a></Link>
 
                             </div>
                         ) : null }

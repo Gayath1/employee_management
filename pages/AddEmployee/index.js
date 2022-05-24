@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
-import Select from 'react-select';
-
 import { getSession, useSession } from "next-auth/react";
 
 import { TextField, MobileField, SelectField } from '../../components/TextField/TextField';
