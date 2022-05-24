@@ -1,34 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f0fdc5e-1364-4620-be31-4a4cbf5a55f4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/Aleart/aleart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/NavBar/header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Profile/profile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Table/Delete.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Table/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/TextField/TextField.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/UpdateEmployee/updateEmployee.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/login/Googlebtn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middlewares/database.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/AddEmployee/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/Profile/profile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/ViewEmployee/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/api/Employee/Add/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/api/Employee/Delete/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/api/Employee/Designation/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/api/Employee/Get/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/api/Employee/Update/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/api/auth/[...nextauth].js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/auth/login.js" afterDir="false" />
+    <list default="true" id="7f0fdc5e-1364-4620-be31-4a4cbf5a55f4" name="Changes" comment="Done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/Home.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,8 +105,16 @@
       <workItem from="1653310030394" duration="2243000" />
       <workItem from="1653314992343" duration="692000" />
       <workItem from="1653363703055" duration="1527000" />
-      <workItem from="1653372797817" duration="402000" />
+      <workItem from="1653372797817" duration="2128000" />
     </task>
+    <task id="LOCAL-00001" summary="Done">
+      <created>1653373253627</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653373253627</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,5 +130,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done" />
   </component>
 </project>
