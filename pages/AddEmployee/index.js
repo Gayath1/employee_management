@@ -33,7 +33,7 @@ function AddEmployee ()
     const fetchData = async () =>
     {
 
-        await axios.get( `${process.env.PROD_URL}/api/Employee/Designation` )
+        await axios.get( `/api/Employee/Designation` )
             .then( res =>
             {
                 setPositions( res.data.message )
