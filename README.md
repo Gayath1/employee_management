@@ -1,16 +1,3 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Screen Shots
 
@@ -27,15 +14,15 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Demo Video
 
-[a link] (https://github.com/Gayath1/employee_management/blob/main/public/Demo/Demo.mp4)
+[HERE](https://github.com/Gayath1/employee_management/blob/main/public/Demo/Demo.mp4)
 
 ## API Documentation
 
-[a link] (https://github.com/Gayath1/employee_management/blob/main/public/Api%20Document/Insomnia_2022-05-23.json)
+[HERE](https://github.com/Gayath1/employee_management/blob/main/public/Api%20Document/Insomnia_2022-05-23.json)
 
 ## Demo Deployment
 
-[a link] (https://employee-management-jade.vercel.app/)
+[HERE](https://employee-management-jade.vercel.app/)
 
 ## Setup Local Environment
 
@@ -75,3 +62,4 @@ npm run dev
 # or
 yarn dev
 ```
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
