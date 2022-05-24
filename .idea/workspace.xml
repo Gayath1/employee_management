@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f0fdc5e-1364-4620-be31-4a4cbf5a55f4" name="Changes" comment="changes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/api/auth/[...nextauth].js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/api/auth/[...nextauth].js" afterDir="false" />
-    </list>
+    <list default="true" id="7f0fdc5e-1364-4620-be31-4a4cbf5a55f4" name="Changes" comment="changes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,7 +103,7 @@
       <workItem from="1653310030394" duration="2243000" />
       <workItem from="1653314992343" duration="692000" />
       <workItem from="1653363703055" duration="1527000" />
-      <workItem from="1653372797817" duration="8363000" />
+      <workItem from="1653372797817" duration="8973000" />
     </task>
     <task id="LOCAL-00001" summary="Done">
       <created>1653373253627</created>
@@ -157,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653383413948</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="changes">
+      <created>1653386653594</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1653386653594</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

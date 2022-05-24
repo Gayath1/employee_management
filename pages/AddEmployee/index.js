@@ -33,7 +33,7 @@ function AddEmployee ()
     const fetchData = async () =>
     {
 
-        await axios.get( 'http://localhost:3000/api/Employee/Designation' )
+        await axios.get( `${process.env.PROD_URL}/api/Employee/Designation` )
             .then( res =>
             {
                 setPositions( res.data.message )
@@ -79,7 +79,7 @@ function AddEmployee ()
             Nic: nic
         };
 
-        await axios.post( `http://localhost:3000/api/Employee/Add`, body )
+        await axios.post( `${process.env.PROD_URL}/api/Employee/Add`, body )
             .then( ( res ) =>
             {
                 setMessage( { type: 'success' } );
