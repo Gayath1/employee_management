@@ -25,7 +25,7 @@ function ViewEmployee ()
     const fetchData = async () =>
     {
 
-        await axios.get( `${process.env.PROD_URL}/api/Employee/Get` )
+        await axios.get( `/api/Employee/Get` )
             .then( res =>
             {
                 setEmployee( res.data.message )
@@ -35,7 +35,7 @@ function ViewEmployee ()
     const fetchDesignation = async () =>
     {
 
-        await axios.get( `${ process.env.PROD_URL }/api/Employee/Designation` )
+        await axios.get( `/api/Employee/Designation` )
             .then( res =>
             {
                 setPositions( res.data.message )
@@ -53,7 +53,7 @@ function ViewEmployee ()
     const handleUpdate = async ( e, body ) =>
     {
         e.preventDefault()
-        await axios.put( `${process.env.PROD_URL}/api/Employee/Update`, body )
+        await axios.put( `/api/Employee/Update`, body )
             .then( ( res ) =>
             {
                 setMessage( { type: 'success' } );
@@ -69,7 +69,7 @@ function ViewEmployee ()
     {
 
         const body = { id };
-        await axios.post( `${process.env.PROD_URL}/api/Employee/Delete`, body )
+        await axios.post( `/api/Employee/Delete`, body )
             .then( ( res ) =>
             {
                 console.log( 'Deleted', body );

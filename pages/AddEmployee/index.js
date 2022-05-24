@@ -79,7 +79,7 @@ function AddEmployee ()
             Nic: nic
         };
 
-        await axios.post( `${process.env.PROD_URL}/api/Employee/Add`, body )
+        await axios.post( `/api/Employee/Add`, body )
             .then( ( res ) =>
             {
                 setMessage( { type: 'success' } );
