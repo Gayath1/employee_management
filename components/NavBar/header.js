@@ -62,10 +62,12 @@ export default function Header ()
                             <div className="hidden lg:flex lg:flex-1 lg:items-center lg:justify-end lg:space-x-6">
                                 <img src={ session.user.image } alt=""
                                      className="w-6 h-6 rounded-full mr-2 bg-gray-100"/>
-                                <a href="/Profile/profile"
+                                <Link href="/Profile/profile" >
+                                <a
                                    className="text-sm font-medium text-gray-700 hover:text-gray-800">
                                     { session.user.email }
                                 </a>
+                                </Link>
                                 <span className="h-6 w-px bg-gray-200" aria-hidden="true"/>
                                 <a href="#" onClick={ () => signOut() }
                                    className="text-sm font-medium text-gray-700 hover:text-gray-800">Sign out</a>
@@ -73,10 +75,11 @@ export default function Header ()
                             </div>
                         ) : (
                             <div className="hidden lg:flex lg:flex-1 lg:items-center lg:justify-end lg:space-x-6">
-                                <a href="/api/auth/signin"
+                                <Link href="/api/auth/signin" >
+                                <a
                                    className="text-sm font-medium text-gray-700 hover:text-gray-800"
                                    onClick={ () => signIn() }>Sign
-                                    in</a>
+                                    in</a></Link>
                                 <span className="h-6 w-px bg-gray-200" aria-hidden="true"/>
 
                             </div>
