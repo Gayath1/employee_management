@@ -28,4 +28,8 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 ## Demo Video
 
-[Link to Video] (https://github.com/Gayath1/employee_management/blob/main/public/Demo/Demo.mp4)
+[a link] (https://github.com/Gayath1/employee_management/blob/main/public/Demo/Demo.mp4)
+
+## API Documentation
+
+[a link] (https://github.com/Gayath1/employee_management/blob/main/public/Api%20Document/Insomnia_2022-05-23.json)
