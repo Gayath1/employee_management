@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 
 import Modal from '@mui/material/Modal';
 
-import { TextField, MobileField } from '../../components/TextField/TextField';
-import { AleartSuccessful, AleartError } from '../../components/alert/Alert'
+import { TextField, MobileField } from '../textField/TextField';
+import { AlertSuccessful, AlertError } from '../alert/Alert'
 
 
 export default function PopUp ( props )
@@ -134,9 +134,9 @@ export default function PopUp ( props )
                       onSubmit={ ( e ) => handleUpdate( e, body ) }>
 
                     { props.Message?.type === 'success' &&
-                        <AleartSuccessful onClick={ ( e ) => props.disbleAleart( e ) }/> }
+                        <AlertSuccessful onClick={ ( e ) => props.disbleAleart( e ) }/> }
                     { props.Message?.type === 'error' && (
-                        <AleartError onClick={ ( e ) => props.disbleAleart( e ) } error={ props.Message.error }/>
+                        <AlertError onClick={ ( e ) => props.disbleAleart( e ) } error={ props.Message.error }/>
                     ) }
 
                     <TextField label="First name" type="text" name="FirstName"

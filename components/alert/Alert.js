@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-export function AleartSuccessful ( props ) {
+export function AlertSuccessful ( props ) {
 
 
     return (
@@ -35,7 +35,7 @@ export function AleartSuccessful ( props ) {
     );
 }
 
-export function AleartError ( props ) {
+export function AlertError ( props ) {
 
 
     return (

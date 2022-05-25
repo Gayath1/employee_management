@@ -4,7 +4,7 @@ import axios from 'axios';
 import { getSession, useSession } from "next-auth/react";
 
 import { TextField, MobileField, SelectField } from '../../components/TextField/TextField';
-import { AleartSuccessful, AleartError } from '../../components/alert/Alert'
+import { AlertSuccessful, AlertError } from '../../components/alert/Alert'
 
 function AddEmployee ()
 {
@@ -184,9 +184,9 @@ function AddEmployee ()
 
         <form className="m-10 p-4 max-w-l bg-white rounded-lg  shadow-md sm:p-6 lg:p-8 " onSubmit={ handleSubmit }>
 
-            { message?.type === 'success' && <AleartSuccessful onClick={ ( e ) => disbleAleart( e ) }/> }
+            { message?.type === 'success' && <AlertSuccessful onClick={ ( e ) => disbleAleart( e ) }/> }
             { message?.type === 'error' && (
-                <AleartError onClick={ ( e ) => disbleAleart( e ) } error={ message.error }/>
+                <AlertError onClick={ ( e ) => disbleAleart( e ) } error={ message.error }/>
             ) }
             <div className="grid xl:grid-cols-2 xl:gap-6">
                 <TextField label="First name" type="text" name="FirstName"
