@@ -1,7 +1,5 @@
-import React, { Fragment, useEffect, useState } from 'react'
+import React from 'react'
 
-import { Dialog, Popover, Tab, Transition } from '@headlessui/react'
-import { MenuIcon, SearchIcon, ShoppingBagIcon, XIcon } from '@heroicons/react/outline'
 
 import { useSession, signIn, signOut } from "next-auth/react"
 

@@ -1,7 +1,7 @@
 import { getSession } from "next-auth/react";
 import React from "react";
 
-import Profile from '../../components/Profile/profile'
+import Profile from '../../components/profile/Profile'
 
 function protectedpage ()
 {

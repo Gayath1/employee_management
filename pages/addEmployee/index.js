@@ -4,7 +4,7 @@ import axios from 'axios';
 import { getSession, useSession } from "next-auth/react";
 
 import { TextField, MobileField, SelectField } from '../../components/TextField/TextField';
-import { AleartSuccessful, AleartError } from '../../components/Aleart/aleart'
+import { AleartSuccessful, AleartError } from '../../components/alert/Alert'
 
 function AddEmployee ()
 {

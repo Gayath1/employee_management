@@ -1,5 +1,5 @@
-import React, { useContext, useEffect, useRef, useState } from 'react';
-import { LockClosedIcon } from '@heroicons/react/solid'
+import React from 'react';
+
 
 
 //Custom login page

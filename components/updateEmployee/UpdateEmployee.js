@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Modal from '@mui/material/Modal';
 
 import { TextField, MobileField } from '../../components/TextField/TextField';
-import { AleartSuccessful, AleartError } from '../../components/Aleart/aleart'
+import { AleartSuccessful, AleartError } from '../../components/alert/Alert'
 
 
 export default function PopUp ( props )

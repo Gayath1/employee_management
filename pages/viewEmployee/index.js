@@ -3,10 +3,7 @@ import axios from 'axios';
 
 import { getSession, useSession } from "next-auth/react";
 
-import { TextField, MobileField, SelectField } from '../../components/TextField/TextField';
-import { AleartSuccessful, AleartError } from '../../components/Aleart/aleart';
-import StickyHeadTable from '../../components/Table/table';
-import PopUp from '../../components/UpdateEmployee/updateEmployee'
+import StickyHeadTable from '../../components/table/Table';
 
 
 function ViewEmployee ()
@@ -21,7 +18,7 @@ function ViewEmployee ()
     const [positions, setPositions] = useState( [] )
     const [Employee, setEmployee] = useState( [] )
 
-    //fetch employee data
+    //fetch Employee data
     const fetchData = async () =>
     {
 

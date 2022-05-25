@@ -4,7 +4,7 @@ import { DataGrid } from '@mui/x-data-grid';
 
 
 import DeleteBtn from './Delete';
-import PopUp from '../UpdateEmployee/updateEmployee'
+import PopUp from '../updateEmployee/UpdateEmployee'
 
 
 export default function StickyHeadTable ( props )
