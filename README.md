@@ -1,15 +1,15 @@
 
 ## Screen Shots
 
-### Profile
+### Profile Page
 ![alt text](https://github.com/Gayath1/employee_management/blob/main/public/ScreenShots/Web%20capture_23-5-2022_141541_localhost.jpeg)
-### Google login
+### Google login page
 ![alt text](https://github.com/Gayath1/employee_management/blob/main/public/ScreenShots/Web%20capture_23-5-2022_14159_localhost.jpeg)
-### Employee Regitser
+### Employee Regitser page
 ![alt text](https://github.com/Gayath1/employee_management/blob/main/public/ScreenShots/Web%20capture_23-5-2022_141610_localhost.jpeg)
-### Employee View
+### Employee View page
 ![alt text](https://github.com/Gayath1/employee_management/blob/main/public/ScreenShots/Web%20capture_23-5-2022_141626_localhost.jpeg)
-### Employee Data Update
+### Employee Data Update model inside View
 ![alt text](https://github.com/Gayath1/employee_management/blob/main/public/ScreenShots/Web%20capture_23-5-2022_141641_localhost.jpeg)
 
 ## Demo Video
