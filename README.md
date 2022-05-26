@@ -127,3 +127,71 @@ Response body:
 	"success": true
 }
  ```
+
+### POST /api/Employee/Add
+
+Request body: 
+```	
+	{
+	"FirstName": "John",
+	"LastName":"Doe",
+	"Birthday":"16/06/1999",
+	"Address":"194/Magalegoda",
+	"Contact":"0773553424",
+	"Department":"IT",
+	"Designation ":"FrontEnd Developer",
+	"EmpId":"Mogo121",
+	"Nic":"991681426v"
+}
+```
+
+Response body: 
+```	
+	{
+	"message": "Employee added successfully",
+	"success": true
+}
+```
+
+### PUT /api/Employee/Update	
+	
+Request body:
+```	
+	{
+	"_id": "62868b62dfcf316d35f048d7",
+	"FirstName": "John",
+	"LastName":"Doe",
+	"Birthday":"16/06/1999",
+	"Address":"194/Magalegoda,veyangoda",
+	"Contact":"0773553424",
+	"Department":"IT",
+	"Designation ":"FrontEnd Developer",
+	"EmpId":"Mogo121",
+	"Nic":"991681426v"
+}
+
+```
+Response body: 	
+	```
+	{
+	"message": "Employee updated successfully",
+	"success": true
+}
+	```
+	
+### POST /api/Employee/Delete
+	
+Request body:	
+	```
+	{
+	"_id": "62868b62dfcf316d35f048d7"
+}
+	```
+	
+Response body: 
+	```
+	{
+	"message": "Employee deleted successfully",
+	"success": true
+}
+	```
