@@ -68,9 +68,11 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
   
 ### API Resources  
   
-  - [GET /api/Employee/Get](#get-employees)
-  - [GET /api/Employee/Designation](#get-designations)
-  - [POST /api/Employee/Add](#post-EmployeeData) 
+  - [GET /api/Employee/Get](#get-/api/employee/get)
+  - [GET /api/Employee/Designation](#get-/api/employee/designation)
+  - [POST /api/Employee/Add](#post-/api/employee/add)
+  - [PUT /api/Employee/Update](#put-/api/employee/update)
+  - [POST /api/Employee/Delete](#post-/api/employee/delete)
   
 ### GET /api/Employee/Get
   
