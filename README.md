@@ -172,26 +172,26 @@ Request body:
 
 ```
 Response body: 	
-	```
+```
 	{
 	"message": "Employee updated successfully",
 	"success": true
 }
-	```
+```
 	
 ### POST /api/Employee/Delete
 	
 Request body:	
-	```
+```
 	{
 	"_id": "62868b62dfcf316d35f048d7"
 }
-	```
+```
 	
 Response body: 
-	```
+```
 	{
 	"message": "Employee deleted successfully",
 	"success": true
 }
-	```
+```
