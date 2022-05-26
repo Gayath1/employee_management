@@ -112,3 +112,18 @@ Response body:
 ### GET /api/Employee/Designation
   
 Response body:  
+  ```
+	{
+	"message": [
+		{
+			"_id": "628a3d886a29e2bab1b39e7b",
+			"Department": "HR",
+			"Designation": [
+				"HR director",
+				"CHRO"
+			]
+		}
+	],
+	"success": true
+}
+ ```
