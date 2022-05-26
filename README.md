@@ -75,7 +75,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ### GET /api/Employee/Get
   
 Response body:
-  
+  ```
   {
 	"message": [
 		{
@@ -108,7 +108,7 @@ Response body:
 	],
 	"success": true
 }
-  
+  ```
 ### GET /api/Employee/Designation
   
 Response body:  
