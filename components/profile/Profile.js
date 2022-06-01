@@ -1,5 +1,5 @@
 import React from 'react';
-import { useSession, signOut } from 'next-auth/react';
+import { useSession } from 'next-auth/react';
 import Head from 'next/head'
 
 const Profile = () =>
