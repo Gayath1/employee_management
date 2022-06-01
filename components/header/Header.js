@@ -41,16 +41,16 @@ export default function Header ()
                             />
                         </a>
                     </div>
-                    <div className="ml-auto flex items-center justify-center">
+                    <div className="ml-3">
                         { session ? (
-                            <div className="hidden lg:flex lg:flex-1 lg:items-center lg:justify-center lg:space-x-6">
+                            <div className="lg:flex lg:flex-1 lg:items-center lg:justify-center lg:space-x-6">
                                 <Link href="/AddEmployee">
                                 <a
-                                   className="text-sm font-medium text-gray-700 hover:text-gray-800">Add Employees</a></Link>
+                                   className="text-sm font-medium text-gray-700 hover:text-gray-800">Register</a></Link>
                                 <span className="h-6 w-px bg-gray-200" aria-hidden="true"/>
                                 <Link href="/ViewEmployee" >
                                 <a
-                                   className="text-sm font-medium text-gray-700 hover:text-gray-800">View Employees</a></Link>
+                                   className="text-sm font-medium text-gray-700 hover:text-gray-800">View</a></Link>
 
                             </div>
                         ) : null }
