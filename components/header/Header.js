@@ -44,11 +44,11 @@ export default function Header ()
                     <div className="ml-3">
                         { session ? (
                             <div className="lg:flex lg:flex-1 lg:items-center lg:justify-center lg:space-x-6">
-                                <Link href="/AddEmployee">
+                                <Link href="/addEmployee">
                                 <a
                                    className="text-sm font-medium text-gray-700 hover:text-gray-800">Register</a></Link>
                                 <span className="h-6 w-px bg-gray-200" aria-hidden="true"/>
-                                <Link href="/ViewEmployee" >
+                                <Link href="/viewEmployee" >
                                 <a
                                    className="text-sm font-medium text-gray-700 hover:text-gray-800">View</a></Link>
 
