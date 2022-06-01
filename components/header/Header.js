@@ -73,7 +73,7 @@ export default function Header ()
                             </div>
                         ) : (
                             <div className="hidden lg:flex lg:flex-1 lg:items-center lg:justify-end lg:space-x-6">
-                                <Link href="/api/auth/signin" >
+                                <Link href="/api/auth/login" >
                                 <a
                                    className="text-sm font-medium text-gray-700 hover:text-gray-800"
                                    onClick={ () => signIn() }>Sign
