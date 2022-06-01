@@ -3,7 +3,7 @@ import axios from 'axios';
 
 import { getSession, useSession } from "next-auth/react";
 
-import { TextField, MobileField, SelectField } from '../../components/TextField/TextField';
+import { TextField, MobileField, SelectField } from '../../components/textField/TextField';
 import { AlertSuccessful, AlertError } from '../../components/alert/Alert'
 
 function AddEmployee ()
