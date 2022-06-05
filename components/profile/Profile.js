@@ -2,7 +2,7 @@ import React from 'react';
 import { useSession } from 'next-auth/react';
 import Head from 'next/head'
 
-const Profile = () =>
+const Profile = (props) =>
 {
 
 
@@ -41,7 +41,7 @@ const Profile = () =>
                         </div>
                     </div>
                     <div className="absolute bottom-0 left-0 pl-5 pb-6">
-                        <h2 className="text-xl font-semibold text-white sm:text-2xl sm:leading-7 sm:text-white md:text-3xl font-SFProText ">20</h2>
+                        <h2 className="text-xl font-semibold text-white sm:text-2xl sm:leading-7 sm:text-white md:text-3xl font-SFProText ">0{ props.Employee }</h2>
                         <h3 className="text-xs font-regular text-white sm:text-1xl sm:leading-7 sm:text-white md:text-2xl font-SFProText ">People</h3>
                     </div>
                 </div>
@@ -57,7 +57,7 @@ const Profile = () =>
                         </div>
                     </div>
                     <div className="absolute bottom-0 left-0 pl-5 pb-6">
-                        <h2 className="text-xl font-semibold text-white sm:text-2xl sm:leading-7 sm:text-white md:text-3xl font-SFProText ">03</h2>
+                        <h2 className="text-xl font-semibold text-white sm:text-2xl sm:leading-7 sm:text-white md:text-3xl font-SFProText ">0{ props.Department }</h2>
                         <h3 className="text-xs font-regular text-white sm:text-1xl sm:leading-7 sm:text-white md:text-2xl font-SFProText ">Departments</h3>
                     </div>
                 </div>
